@@ -5,7 +5,7 @@ xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
 xmlns="http://www.w3.org/TR/REC-html40">
 
 <head>
-<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<meta http-equiv=Content-Type content="text/html; charset=x-cp20936">
 <meta name=ProgId content=Word.Document>
 <meta name=Generator content="Microsoft Word 14">
 <meta name=Originator content="Microsoft Word 14">
@@ -29,7 +29,6 @@ w\:* {behavior:url(#default#VML);}
 <link rel=colorSchemeMapping href="index.files/colorschememapping.xml">
 <!--[if gte mso 9]><xml>
  <w:WordDocument>
-  <w:Zoom>130</w:Zoom>
   <w:SpellingState>Clean</w:SpellingState>
   <w:GrammarState>Clean</w:GrammarState>
   <w:TrackMoves>false</w:TrackMoves>
@@ -67,7 +66,6 @@ w\:* {behavior:url(#default#VML);}
    <w:AutofitLikeWW11/>
    <w:HangulWidthLikeWW11/>
    <w:UseNormalStyleForList/>
-   <w:SplitPgBreakAndParaMark/>
    <w:DontVertAlignCellWithSp/>
    <w:DontBreakConstrainedForcedTables/>
    <w:DontVertAlignInTxbx/>
@@ -117,9 +115,10 @@ w\:* {behavior:url(#default#VML);}
   <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
   <w:LsdException Locked="false" Priority="10" SemiHidden="false"
    UnhideWhenUsed="false" QFormat="true" Name="Title"/>
-  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" Priority="0" Name="Default Paragraph Font"/>
   <w:LsdException Locked="false" Priority="11" SemiHidden="false"
    UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" Priority="0" Name="Date"/>
   <w:LsdException Locked="false" Priority="22" SemiHidden="false"
    UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
   <w:LsdException Locked="false" Priority="20" SemiHidden="false"
@@ -402,8 +401,8 @@ w\:* {behavior:url(#default#VML);}
 	mso-fareast-font-family:宋体;
 	mso-font-kerning:1.0pt;}
 h2
-	{mso-style-noshow:yes;
-	mso-style-priority:9;
+	{mso-style-priority:9;
+	mso-style-unhide:no;
 	mso-style-qformat:yes;
 	mso-style-link:"标题 2 Char";
 	mso-margin-top-alt:auto;
@@ -429,7 +428,7 @@ p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
 	mso-fareast-font-family:宋体;
 	mso-font-kerning:1.0pt;}
 p.MsoHeader, li.MsoHeader, div.MsoHeader
-	{mso-style-priority:99;
+	{mso-style-unhide:no;
 	mso-style-link:"页眉 Char";
 	margin:0cm;
 	margin-bottom:.0001pt;
@@ -446,7 +445,7 @@ p.MsoHeader, li.MsoHeader, div.MsoHeader
 	mso-fareast-font-family:宋体;
 	mso-font-kerning:1.0pt;}
 p.MsoFooter, li.MsoFooter, div.MsoFooter
-	{mso-style-priority:99;
+	{mso-style-unhide:no;
 	mso-style-link:"页脚 Char";
 	margin:0cm;
 	margin-bottom:.0001pt;
@@ -464,9 +463,7 @@ span.MsoCommentReference
 	mso-ansi-font-size:10.5pt;
 	mso-bidi-font-size:10.5pt;}
 p.MsoDate, li.MsoDate, div.MsoDate
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-link:"日期 Char";
+	{mso-style-unhide:no;
 	mso-style-next:正文;
 	margin:0cm;
 	margin-bottom:.0001pt;
@@ -479,8 +476,7 @@ p.MsoDate, li.MsoDate, div.MsoDate
 	mso-fareast-font-family:宋体;
 	mso-font-kerning:1.0pt;}
 a:link, span.MsoHyperlink
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
+	{mso-style-unhide:no;
 	mso-style-parent:"";
 	color:blue;
 	text-decoration:underline;
@@ -493,9 +489,7 @@ a:visited, span.MsoHyperlinkFollowed
 	text-decoration:underline;
 	text-underline:single;}
 p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-link:"文档结构图 Char";
+	{mso-style-unhide:no;
 	margin:0cm;
 	margin-bottom:.0001pt;
 	text-align:justify;
@@ -547,8 +541,7 @@ p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
 	mso-fareast-font-family:宋体;
 	mso-font-kerning:1.0pt;}
 p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-	{mso-style-noshow:yes;
-	mso-style-priority:34;
+	{mso-style-priority:34;
 	mso-style-unhide:no;
 	mso-style-qformat:yes;
 	margin:0cm;
@@ -562,36 +555,8 @@ p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
 	font-family:"Times New Roman","serif";
 	mso-fareast-font-family:宋体;
 	mso-font-kerning:1.0pt;}
-span.2Char
-	{mso-style-name:"标题 2 Char";
-	mso-style-noshow:yes;
-	mso-style-priority:9;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-parent:"";
-	mso-style-link:"标题 2";
-	mso-ansi-font-size:18.0pt;
-	mso-bidi-font-size:18.0pt;
-	font-family:宋体;
-	mso-ascii-font-family:宋体;
-	mso-fareast-font-family:宋体;
-	mso-hansi-font-family:宋体;
-	mso-bidi-font-family:宋体;
-	font-weight:bold;}
 span.Char
-	{mso-style-name:"批注文字 Char";
-	mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-parent:"";
-	mso-style-link:批注文字;
-	mso-ansi-font-size:10.5pt;
-	mso-bidi-font-size:12.0pt;
-	mso-font-kerning:1.0pt;}
-span.Char0
 	{mso-style-name:"页眉 Char";
-	mso-style-priority:99;
 	mso-style-unhide:no;
 	mso-style-locked:yes;
 	mso-style-parent:"";
@@ -599,9 +564,8 @@ span.Char0
 	mso-ansi-font-size:9.0pt;
 	mso-bidi-font-size:9.0pt;
 	mso-font-kerning:1.0pt;}
-span.Char1
+span.Char0
 	{mso-style-name:"页脚 Char";
-	mso-style-priority:99;
 	mso-style-unhide:no;
 	mso-style-locked:yes;
 	mso-style-parent:"";
@@ -609,54 +573,8 @@ span.Char1
 	mso-ansi-font-size:9.0pt;
 	mso-bidi-font-size:9.0pt;
 	mso-font-kerning:1.0pt;}
-span.Char2
-	{mso-style-name:"日期 Char";
-	mso-style-noshow:yes;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:日期;
-	mso-ansi-font-size:10.5pt;
-	mso-bidi-font-size:12.0pt;
-	mso-font-kerning:1.0pt;}
-span.Char3
-	{mso-style-name:"文档结构图 Char";
-	mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:文档结构图;
-	mso-ansi-font-size:9.0pt;
-	mso-bidi-font-size:9.0pt;
-	font-family:宋体;
-	mso-ascii-font-family:宋体;
-	mso-font-kerning:1.0pt;}
-span.Char4
-	{mso-style-name:"批注主题 Char";
-	mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-parent:"";
-	mso-style-link:批注主题;
-	mso-ansi-font-size:10.5pt;
-	mso-bidi-font-size:12.0pt;
-	mso-font-kerning:1.0pt;
-	font-weight:bold;}
-span.Char5
-	{mso-style-name:"批注框文本 Char";
-	mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-parent:"";
-	mso-style-link:批注框文本;
-	mso-ansi-font-size:9.0pt;
-	mso-bidi-font-size:9.0pt;
-	mso-font-kerning:1.0pt;}
-p.Char20, li.Char20, div.Char20
-	{mso-style-name:Char2;
-	mso-style-noshow:yes;
-	mso-style-priority:99;
+p.Char2, li.Char2, div.Char2
+	{mso-style-name:" Char2";
 	mso-style-unhide:no;
 	margin:0cm;
 	margin-bottom:.0001pt;
@@ -671,9 +589,7 @@ p.Char20, li.Char20, div.Char20
 	mso-bidi-font-family:宋体;
 	mso-font-kerning:1.0pt;}
 p.CharCharCharChar, li.CharCharCharChar, div.CharCharCharChar
-	{mso-style-name:"Char Char Char Char";
-	mso-style-noshow:yes;
-	mso-style-priority:99;
+	{mso-style-name:" Char Char Char Char";
 	mso-style-unhide:no;
 	margin:0cm;
 	margin-bottom:.0001pt;
@@ -685,6 +601,54 @@ p.CharCharCharChar, li.CharCharCharChar, div.CharCharCharChar
 	font-family:"Times New Roman","serif";
 	mso-fareast-font-family:宋体;
 	mso-font-kerning:1.0pt;}
+span.Char1
+	{mso-style-name:"批注框文本 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:批注框文本;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	mso-font-kerning:1.0pt;}
+span.Char3
+	{mso-style-name:"批注文字 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:批注文字;
+	mso-ansi-font-size:10.5pt;
+	mso-bidi-font-size:12.0pt;
+	mso-font-kerning:1.0pt;}
+span.Char4
+	{mso-style-name:"批注主题 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:批注主题;
+	mso-ansi-font-size:10.5pt;
+	mso-bidi-font-size:12.0pt;
+	mso-font-kerning:1.0pt;
+	font-weight:bold;}
+span.2Char
+	{mso-style-name:"标题 2 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:"标题 2";
+	mso-ansi-font-size:18.0pt;
+	mso-bidi-font-size:18.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
 span.style10
 	{mso-style-name:style10;
 	mso-style-unhide:no;
@@ -698,13 +662,7 @@ span.GramE
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
-	font-size:10.0pt;
-	mso-ansi-font-size:10.0pt;
-	mso-bidi-font-size:10.0pt;
-	mso-ascii-font-family:"Times New Roman";
-	mso-fareast-font-family:宋体;
-	mso-hansi-font-family:"Times New Roman";
-	mso-font-kerning:0pt;}
+	mso-fareast-font-family:宋体;}
  /* Page Definitions */
  @page
 	{mso-page-border-surround-header:no;
@@ -731,10 +689,317 @@ div.WordSection1
 	{page:WordSection1;}
  /* List Definitions */
  @list l0
+	{mso-list-id:13;
+	mso-list-template-ids:13;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0D8;
+	mso-level-tab-stop:3.05pt;
+	mso-level-number-position:left;
+	margin-left:3.05pt;
+	text-indent:-21.0pt;
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:Wingdings;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06E;
+	mso-level-tab-stop:24.05pt;
+	mso-level-number-position:left;
+	margin-left:24.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:45.05pt;
+	mso-level-number-position:left;
+	margin-left:45.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06C;
+	mso-level-tab-stop:66.05pt;
+	mso-level-number-position:left;
+	margin-left:66.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06E;
+	mso-level-tab-stop:87.05pt;
+	mso-level-number-position:left;
+	margin-left:87.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:108.05pt;
+	mso-level-number-position:left;
+	margin-left:108.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06C;
+	mso-level-tab-stop:129.05pt;
+	mso-level-number-position:left;
+	margin-left:129.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06E;
+	mso-level-tab-stop:150.05pt;
+	mso-level-number-position:left;
+	margin-left:150.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:171.05pt;
+	mso-level-number-position:left;
+	margin-left:171.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l1
+	{mso-list-id:14;
+	mso-list-template-ids:14;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0D8;
+	mso-level-tab-stop:3.05pt;
+	mso-level-number-position:left;
+	margin-left:3.05pt;
+	text-indent:-21.0pt;
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:Wingdings;}
+@list l1:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06E;
+	mso-level-tab-stop:24.05pt;
+	mso-level-number-position:left;
+	margin-left:24.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l1:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:45.05pt;
+	mso-level-number-position:left;
+	margin-left:45.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l1:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06C;
+	mso-level-tab-stop:66.05pt;
+	mso-level-number-position:left;
+	margin-left:66.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l1:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06E;
+	mso-level-tab-stop:87.05pt;
+	mso-level-number-position:left;
+	margin-left:87.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l1:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:108.05pt;
+	mso-level-number-position:left;
+	margin-left:108.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l1:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06C;
+	mso-level-tab-stop:129.05pt;
+	mso-level-number-position:left;
+	margin-left:129.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l1:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06E;
+	mso-level-tab-stop:150.05pt;
+	mso-level-number-position:left;
+	margin-left:150.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l1:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:171.05pt;
+	mso-level-number-position:left;
+	margin-left:171.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l2
+	{mso-list-id:20;
+	mso-list-template-ids:20;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0D8;
+	mso-level-tab-stop:21.0pt;
+	mso-level-number-position:left;
+	margin-left:21.0pt;
+	text-indent:-21.0pt;
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:Wingdings;}
+@list l2:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06E;
+	mso-level-tab-stop:42.0pt;
+	mso-level-number-position:left;
+	margin-left:42.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l2:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:63.0pt;
+	mso-level-number-position:left;
+	margin-left:63.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l2:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06C;
+	mso-level-tab-stop:84.0pt;
+	mso-level-number-position:left;
+	margin-left:84.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l2:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06E;
+	mso-level-tab-stop:105.0pt;
+	mso-level-number-position:left;
+	margin-left:105.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l2:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:126.0pt;
+	mso-level-number-position:left;
+	margin-left:126.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l2:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06C;
+	mso-level-tab-stop:147.0pt;
+	mso-level-number-position:left;
+	margin-left:147.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l2:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06E;
+	mso-level-tab-stop:168.0pt;
+	mso-level-number-position:left;
+	margin-left:168.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l2:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:189.0pt;
+	mso-level-number-position:left;
+	margin-left:189.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l3
+	{mso-list-id:18166091;
+	mso-list-type:hybrid;
+	mso-list-template-ids:2005854446 67698699 67698699 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l3:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0D8;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:3.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l3:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0D8;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:24.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l3:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:45.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l3:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06C;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:66.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l3:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06E;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:87.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l3:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:108.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l3:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06C;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:129.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l3:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06E;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:150.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l3:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:171.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l4
 	{mso-list-id:69351697;
 	mso-list-type:hybrid;
 	mso-list-template-ids:-169848994 558672228 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
-@list l0:level1
+@list l4:level1
 	{mso-level-text:"\[%1\]";
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
@@ -743,60 +1008,288 @@ div.WordSection1
 	color:black;
 	mso-ansi-font-weight:normal;
 	mso-ansi-font-style:normal;}
-@list l0:level2
+@list l4:level2
 	{mso-level-number-format:alpha-lower;
 	mso-level-text:"%2\)";
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	margin-left:63.0pt;
 	text-indent:-21.0pt;}
-@list l0:level3
+@list l4:level3
 	{mso-level-number-format:roman-lower;
 	mso-level-tab-stop:none;
 	mso-level-number-position:right;
 	margin-left:84.0pt;
 	text-indent:-21.0pt;}
-@list l0:level4
+@list l4:level4
 	{mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	margin-left:105.0pt;
 	text-indent:-21.0pt;}
-@list l0:level5
+@list l4:level5
 	{mso-level-number-format:alpha-lower;
 	mso-level-text:"%5\)";
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	margin-left:126.0pt;
 	text-indent:-21.0pt;}
-@list l0:level6
+@list l4:level6
 	{mso-level-number-format:roman-lower;
 	mso-level-tab-stop:none;
 	mso-level-number-position:right;
 	margin-left:147.0pt;
 	text-indent:-21.0pt;}
-@list l0:level7
+@list l4:level7
 	{mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	margin-left:168.0pt;
 	text-indent:-21.0pt;}
-@list l0:level8
+@list l4:level8
 	{mso-level-number-format:alpha-lower;
 	mso-level-text:"%8\)";
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	margin-left:189.0pt;
 	text-indent:-21.0pt;}
-@list l0:level9
+@list l4:level9
 	{mso-level-number-format:roman-lower;
 	mso-level-tab-stop:none;
 	mso-level-number-position:right;
 	margin-left:210.0pt;
 	text-indent:-21.0pt;}
-@list l1
+@list l5
+	{mso-list-id:207449060;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1115118130 67698699 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l5:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0D8;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:3.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l5:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06E;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:24.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l5:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:45.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l5:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06C;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:66.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l5:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06E;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:87.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l5:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:108.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l5:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06C;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:129.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l5:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06E;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:150.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l5:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:171.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l6
+	{mso-list-id:302277365;
+	mso-list-type:hybrid;
+	mso-list-template-ids:554837882 67698699 67698699 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l6:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0D8;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:3.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l6:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0D8;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:24.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l6:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:45.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l6:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06C;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:66.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l6:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06E;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:87.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l6:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:108.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l6:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06C;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:129.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l6:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06E;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:150.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l6:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:171.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l7
+	{mso-list-id:351878799;
+	mso-list-type:hybrid;
+	mso-list-template-ids:2022455168 67698699 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l7:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0D8;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l7:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06E;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:42.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l7:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:63.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l7:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06C;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:84.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l7:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06E;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:105.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l7:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:126.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l7:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06C;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:147.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l7:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06E;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:168.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l7:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:189.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l8
 	{mso-list-id:359430934;
 	mso-list-type:hybrid;
 	mso-list-template-ids:2012409588 67698699 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
-@list l1:level1
+@list l8:level1
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0D8;
 	mso-level-tab-stop:none;
@@ -804,7 +1297,7 @@ div.WordSection1
 	margin-left:42.0pt;
 	text-indent:-21.0pt;
 	font-family:Wingdings;}
-@list l1:level2
+@list l8:level2
 	{mso-level-number-format:bullet;
 	mso-level-text:\F06E;
 	mso-level-tab-stop:none;
@@ -812,7 +1305,7 @@ div.WordSection1
 	margin-left:63.0pt;
 	text-indent:-21.0pt;
 	font-family:Wingdings;}
-@list l1:level3
+@list l8:level3
 	{mso-level-number-format:bullet;
 	mso-level-text:\F075;
 	mso-level-tab-stop:none;
@@ -820,7 +1313,7 @@ div.WordSection1
 	margin-left:84.0pt;
 	text-indent:-21.0pt;
 	font-family:Wingdings;}
-@list l1:level4
+@list l8:level4
 	{mso-level-number-format:bullet;
 	mso-level-text:\F06C;
 	mso-level-tab-stop:none;
@@ -828,7 +1321,7 @@ div.WordSection1
 	margin-left:105.0pt;
 	text-indent:-21.0pt;
 	font-family:Wingdings;}
-@list l1:level5
+@list l8:level5
 	{mso-level-number-format:bullet;
 	mso-level-text:\F06E;
 	mso-level-tab-stop:none;
@@ -836,7 +1329,7 @@ div.WordSection1
 	margin-left:126.0pt;
 	text-indent:-21.0pt;
 	font-family:Wingdings;}
-@list l1:level6
+@list l8:level6
 	{mso-level-number-format:bullet;
 	mso-level-text:\F075;
 	mso-level-tab-stop:none;
@@ -844,7 +1337,7 @@ div.WordSection1
 	margin-left:147.0pt;
 	text-indent:-21.0pt;
 	font-family:Wingdings;}
-@list l1:level7
+@list l8:level7
 	{mso-level-number-format:bullet;
 	mso-level-text:\F06C;
 	mso-level-tab-stop:none;
@@ -852,7 +1345,7 @@ div.WordSection1
 	margin-left:168.0pt;
 	text-indent:-21.0pt;
 	font-family:Wingdings;}
-@list l1:level8
+@list l8:level8
 	{mso-level-number-format:bullet;
 	mso-level-text:\F06E;
 	mso-level-tab-stop:none;
@@ -860,7 +1353,7 @@ div.WordSection1
 	margin-left:189.0pt;
 	text-indent:-21.0pt;
 	font-family:Wingdings;}
-@list l1:level9
+@list l8:level9
 	{mso-level-number-format:bullet;
 	mso-level-text:\F075;
 	mso-level-tab-stop:none;
@@ -868,11 +1361,631 @@ div.WordSection1
 	margin-left:210.0pt;
 	text-indent:-21.0pt;
 	font-family:Wingdings;}
-@list l2
+@list l9
+	{mso-list-id:421951744;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1580430332 67698699 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l9:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0D8;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:18.7pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l9:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06E;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:39.7pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l9:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:60.7pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l9:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06C;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:81.7pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l9:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06E;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:102.7pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l9:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:123.7pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l9:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06C;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:144.7pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l9:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06E;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:165.7pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l9:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:186.7pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l10
+	{mso-list-id:451020093;
+	mso-list-type:hybrid;
+	mso-list-template-ids:718176692 -396876242 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l10:level1
+	{mso-level-start-at:5;
+	mso-level-text:"\[%1\]";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:24.05pt;
+	text-indent:-21.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:宋体;
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l10:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%2\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:42.0pt;
+	text-indent:-21.0pt;}
+@list l10:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:63.0pt;
+	text-indent:-21.0pt;}
+@list l10:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:84.0pt;
+	text-indent:-21.0pt;}
+@list l10:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%5\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:105.0pt;
+	text-indent:-21.0pt;}
+@list l10:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:126.0pt;
+	text-indent:-21.0pt;}
+@list l10:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:147.0pt;
+	text-indent:-21.0pt;}
+@list l10:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%8\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:168.0pt;
+	text-indent:-21.0pt;}
+@list l10:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:189.0pt;
+	text-indent:-21.0pt;}
+@list l11
+	{mso-list-id:804278443;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1541715400 971024042 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l11:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.0pt;
+	text-indent:-21.0pt;}
+@list l11:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%2\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:42.0pt;
+	text-indent:-21.0pt;}
+@list l11:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:63.0pt;
+	text-indent:-21.0pt;}
+@list l11:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:84.0pt;
+	text-indent:-21.0pt;}
+@list l11:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%5\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:105.0pt;
+	text-indent:-21.0pt;}
+@list l11:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:126.0pt;
+	text-indent:-21.0pt;}
+@list l11:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:147.0pt;
+	text-indent:-21.0pt;}
+@list l11:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%8\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:168.0pt;
+	text-indent:-21.0pt;}
+@list l11:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:189.0pt;
+	text-indent:-21.0pt;}
+@list l12
+	{mso-list-id:843594142;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1119886200 67698699 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l12:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0D8;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l12:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06E;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:42.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l12:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:63.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l12:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06C;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:84.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l12:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06E;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:105.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l12:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:126.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l12:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06C;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:147.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l12:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06E;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:168.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l12:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:189.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l13
+	{mso-list-id:943224232;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-166003646 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l13:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.0pt;
+	text-indent:-21.0pt;}
+@list l13:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%2\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:42.0pt;
+	text-indent:-21.0pt;}
+@list l13:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:63.0pt;
+	text-indent:-21.0pt;}
+@list l13:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:84.0pt;
+	text-indent:-21.0pt;}
+@list l13:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%5\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:105.0pt;
+	text-indent:-21.0pt;}
+@list l13:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:126.0pt;
+	text-indent:-21.0pt;}
+@list l13:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:147.0pt;
+	text-indent:-21.0pt;}
+@list l13:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%8\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:168.0pt;
+	text-indent:-21.0pt;}
+@list l13:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:189.0pt;
+	text-indent:-21.0pt;}
+@list l14
+	{mso-list-id:1033581236;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-897038224 67698699 -1015907430 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l14:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0D8;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:3.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l14:level2
+	{mso-level-text:"\[%2\]";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:24.05pt;
+	text-indent:-21.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:宋体;
+	mso-ansi-font-weight:normal;
+	mso-ansi-font-style:normal;}
+@list l14:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:45.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l14:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06C;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:66.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l14:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06E;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:87.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l14:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:108.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l14:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06C;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:129.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l14:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06E;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:150.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l14:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:171.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l15
+	{mso-list-id:1157724944;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-604574184 67698699 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l15:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0D8;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l15:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06E;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:42.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l15:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:63.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l15:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06C;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:84.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l15:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06E;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:105.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l15:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:126.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l15:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06C;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:147.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l15:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06E;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:168.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l15:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:189.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l16
+	{mso-list-id:1174538726;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1216031058 971024042 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l16:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.0pt;
+	text-indent:-21.0pt;}
+@list l16:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%2\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:42.0pt;
+	text-indent:-21.0pt;}
+@list l16:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:63.0pt;
+	text-indent:-21.0pt;}
+@list l16:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:84.0pt;
+	text-indent:-21.0pt;}
+@list l16:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%5\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:105.0pt;
+	text-indent:-21.0pt;}
+@list l16:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:126.0pt;
+	text-indent:-21.0pt;}
+@list l16:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:147.0pt;
+	text-indent:-21.0pt;}
+@list l16:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%8\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:168.0pt;
+	text-indent:-21.0pt;}
+@list l16:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:189.0pt;
+	text-indent:-21.0pt;}
+@list l17
+	{mso-list-id:1181164297;
+	mso-list-template-ids:-1711001864;}
+@list l17:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l17:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l17:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l17:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l17:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l17:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l17:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l17:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l17:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l18
 	{mso-list-id:1319769625;
 	mso-list-type:hybrid;
 	mso-list-template-ids:-252122496 67698699 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
-@list l2:level1
+@list l18:level1
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0D8;
 	mso-level-tab-stop:none;
@@ -880,7 +1993,7 @@ div.WordSection1
 	margin-left:42.0pt;
 	text-indent:-21.0pt;
 	font-family:Wingdings;}
-@list l2:level2
+@list l18:level2
 	{mso-level-number-format:bullet;
 	mso-level-text:\F06E;
 	mso-level-tab-stop:none;
@@ -888,7 +2001,7 @@ div.WordSection1
 	margin-left:63.0pt;
 	text-indent:-21.0pt;
 	font-family:Wingdings;}
-@list l2:level3
+@list l18:level3
 	{mso-level-number-format:bullet;
 	mso-level-text:\F075;
 	mso-level-tab-stop:none;
@@ -896,7 +2009,7 @@ div.WordSection1
 	margin-left:84.0pt;
 	text-indent:-21.0pt;
 	font-family:Wingdings;}
-@list l2:level4
+@list l18:level4
 	{mso-level-number-format:bullet;
 	mso-level-text:\F06C;
 	mso-level-tab-stop:none;
@@ -904,7 +2017,7 @@ div.WordSection1
 	margin-left:105.0pt;
 	text-indent:-21.0pt;
 	font-family:Wingdings;}
-@list l2:level5
+@list l18:level5
 	{mso-level-number-format:bullet;
 	mso-level-text:\F06E;
 	mso-level-tab-stop:none;
@@ -912,7 +2025,7 @@ div.WordSection1
 	margin-left:126.0pt;
 	text-indent:-21.0pt;
 	font-family:Wingdings;}
-@list l2:level6
+@list l18:level6
 	{mso-level-number-format:bullet;
 	mso-level-text:\F075;
 	mso-level-tab-stop:none;
@@ -920,7 +2033,7 @@ div.WordSection1
 	margin-left:147.0pt;
 	text-indent:-21.0pt;
 	font-family:Wingdings;}
-@list l2:level7
+@list l18:level7
 	{mso-level-number-format:bullet;
 	mso-level-text:\F06C;
 	mso-level-tab-stop:none;
@@ -928,7 +2041,7 @@ div.WordSection1
 	margin-left:168.0pt;
 	text-indent:-21.0pt;
 	font-family:Wingdings;}
-@list l2:level8
+@list l18:level8
 	{mso-level-number-format:bullet;
 	mso-level-text:\F06E;
 	mso-level-tab-stop:none;
@@ -936,12 +2049,164 @@ div.WordSection1
 	margin-left:189.0pt;
 	text-indent:-21.0pt;
 	font-family:Wingdings;}
-@list l2:level9
+@list l18:level9
 	{mso-level-number-format:bullet;
 	mso-level-text:\F075;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	margin-left:210.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l19
+	{mso-list-id:1503667110;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1753243150 67698699 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l19:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0D8;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:3.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l19:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06E;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:24.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l19:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:45.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l19:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06C;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:66.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l19:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06E;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:87.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l19:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:108.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l19:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06C;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:129.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l19:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06E;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:150.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l19:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:171.05pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l20
+	{mso-list-id:1653365003;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1774307400 67698699 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l20:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0D8;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l20:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06E;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:42.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l20:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:63.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l20:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06C;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:84.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l20:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06E;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:105.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l20:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:126.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l20:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06C;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:147.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l20:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F06E;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:168.0pt;
+	text-indent:-21.0pt;
+	font-family:Wingdings;}
+@list l20:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F075;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:189.0pt;
 	text-indent:-21.0pt;
 	font-family:Wingdings;}
 ol
@@ -1001,20 +2266,26 @@ margin-bottom:3.1pt;margin-left:0cm;mso-para-margin-top:.2gd;mso-para-margin-rig
 0cm;mso-para-margin-bottom:.2gd;mso-para-margin-left:0cm;text-align:center;
 line-height:25.0pt;mso-line-height-rule:exactly'><b><span lang=EN-US
 style='font-size:20.0pt;mso-bidi-font-size:12.0pt;mso-no-proof:yes'>XiangtaoZheng's
-Homepage</span></b><b><span lang=EN-US style='font-size:20.0pt;mso-bidi-font-size:
-22.0pt'><o:p></o:p></span></b></p>
+Homepage<o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=center style='margin-top:3.1pt;margin-right:0cm;
+margin-bottom:3.1pt;margin-left:0cm;mso-para-margin-top:.2gd;mso-para-margin-right:
+0cm;mso-para-margin-bottom:.2gd;mso-para-margin-left:0cm;text-align:center;
+line-height:25.0pt;mso-line-height-rule:exactly'><b><span lang=EN-US
+style='font-size:20.0pt;mso-bidi-font-size:22.0pt'><o:p>&nbsp;</o:p></span></b></p>
 
 <div align=center>
 
-<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt'>
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width=642
+ style='width:481.85pt;margin-left:9.85pt;border-collapse:collapse;mso-yfti-tbllook:
+ 1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt'>
  <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
-  <td width=160 valign=top style='width:120.25pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <td width=147 valign=top style='width:110.45pt;padding:0cm 5.4pt 0cm 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center;line-height:200%'><b
   style='mso-bidi-font-weight:normal'><span lang=EN-US style='mso-bidi-font-size:
-  10.5pt;line-height:200%;mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype
-   id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
-   path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+  10.5pt;line-height:200%'><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+   coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+   filled="f" stroked="f">
    <v:stroke joinstyle="miter"/>
    <v:formulas>
     <v:f eqn="if lineDrawn pixelLineWidth 0"/>
@@ -1032,16 +2303,13 @@ Homepage</span></b><b><span lang=EN-US style='font-size:20.0pt;mso-bidi-font-siz
    </v:formulas>
    <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
    <o:lock v:ext="edit" aspectratio="t"/>
-  </v:shapetype><v:shape id="图片_x0020_1" o:spid="_x0000_i1025" type="#_x0000_t75"
-   alt="说明: XiangtaoZheng_2021" style='width:109.5pt;height:153.75pt;
-   visibility:visible;mso-wrap-style:square'>
-   <v:imagedata src="image001.jpg" o:title="XiangtaoZheng_2021"/>
-  </v:shape><![endif]--><![if !vml]><img width=146 height=205
-  src="image002.jpg" alt="说明: XiangtaoZheng_2021" v:shapes="图片_x0020_1"><![endif]></span></b><b
-  style='mso-bidi-font-weight:normal'><span lang=EN-US style='mso-bidi-font-size:
-  10.5pt;line-height:200%'><o:p></o:p></span></b></p>
+  </v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:89.25pt;
+   height:125.25pt'>
+   <v:imagedata src="/image001.jpg" o:title="XiangtaoZheng_2021"/>
+  </v:shape><![endif]--><![if !vml]><img width=119 height=167
+  src="/image002.jpg" v:shapes="_x0000_i1025"><![endif]><o:p></o:p></span></b></p>
   </td>
-  <td width=489 valign=top style='width:366.45pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <td width=495 style='width:371.4pt;padding:0cm 5.4pt 0cm 5.4pt'>
   <p class=MsoNormal align=left style='text-align:left;line-height:200%'><span
   class=SpellE><b style='mso-bidi-font-weight:normal'><span lang=EN-US
   style='mso-bidi-font-size:10.5pt;line-height:200%'>Ph.D</span></b></span><b
@@ -1058,12 +2326,15 @@ Homepage</span></b><b><span lang=EN-US style='font-size:20.0pt;mso-bidi-font-siz
   style='mso-bidi-font-weight:normal'><span lang=EN-US style='mso-bidi-font-size:
   10.5pt;line-height:200%'>Email: <a href="mailto:xiangtaoz@gmail.com"><span
   style='mso-bidi-font-size:12.0pt;line-height:200%;color:windowtext;
-  text-decoration:none;text-underline:none'>xiangtaoz@gmail.com</span></a>; zhengxiangtao@opt.cn<o:p></o:p></span></b></p>
+  text-decoration:none;text-underline:none'>xiangtaoz@gmail.com</span></a>;
+  zhengxiangtao@opt.cn<o:p></o:p></span></b></p>
   </td>
  </tr>
 </table>
 
 </div>
+
+<p class=MsoNormal><span lang=EN-US style='mso-bidi-font-size:10.5pt'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal><span lang=EN-US style='mso-bidi-font-size:10.5pt'><o:p>&nbsp;</o:p></span></p>
 
@@ -1101,12 +2372,12 @@ text-indent:-17.95pt;mso-char-indent-count:-1.49'><b><span lang=EN-US
 style='font-size:12.0pt'>Experience<o:p></o:p></span></b></p>
 
 <p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0'><span
-lang=EN-US style='mso-bidi-font-size:10.5pt'>2020-now Associate Professor,
-Xi'an Institute of Optics and Precision Mechanics, Chinese Academy of Sciences<o:p></o:p></span></p>
+lang=EN-US style='mso-bidi-font-size:10.5pt'>2020-now Associate Professor, Xi'an
+Institute of Optics and Precision Mechanics, Chinese Academy of Sciences<o:p></o:p></span></p>
 
 <p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0'><span
-lang=EN-US style='mso-bidi-font-size:10.5pt'>2017-2020 Assistant Professor,
-Xi'an Institute of Optics and Precision Mechanics, Chinese Academy of Sciences<o:p></o:p></span></p>
+lang=EN-US style='mso-bidi-font-size:10.5pt'>2017-2020 Assistant Professor, Xi'an
+Institute of Optics and Precision Mechanics, Chinese Academy of Sciences<o:p></o:p></span></p>
 
 <p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0'><span
 lang=EN-US style='mso-bidi-font-size:10.5pt'><o:p>&nbsp;</o:p></span></p>
@@ -1117,147 +2388,176 @@ margin-bottom:7.8pt;margin-left:17.95pt;mso-para-margin-top:.5gd;mso-para-margin
 text-indent:-17.95pt;mso-char-indent-count:-1.49'><b><span lang=EN-US
 style='font-size:12.0pt'>Publications<span style='mso-spacerun:yes'>&nbsp;
 </span></span><span lang=EN-US><span
-style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><o:p></o:p></span></b></p>
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;</span><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><o:p></o:p></span></b></p>
 
 <p class=MsoListParagraph style='margin-left:21.1pt;text-indent:-21.1pt;
-mso-char-indent-count:-2.0;line-height:150%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+mso-char-indent-count:-2.0;line-height:150%;mso-list:l4 level1 lfo18'><a
+name="RANGE!B2"></a><a name="RANGE!B3"><span style='mso-bookmark:"RANGE\!B2"'><![if !supportLists]><span
 lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:
 "Times New Roman";color:black;mso-font-kerning:0pt;mso-bidi-font-weight:bold'><span
 style='mso-list:Ignore'>[1]<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><b><span lang=EN-US style='mso-bidi-font-size:
 12.0pt;line-height:150%;color:#222222;background:white;mso-font-kerning:0pt'>X.
-<span class=SpellE>Zheng</span></span></b><a name="RANGE!B3"><span lang=EN-US
-style='mso-bidi-font-size:12.0pt;line-height:150%;color:#222222;background:
-white;mso-font-kerning:0pt'>, X. Chen, X. Lu<b>*</b>, and B. Sun,
-&quot;Unsupervised Change Detection by Cross-Resolution Difference
-Learning,&quot; <i>IEEE Transactions on Geoscience and Remote Sensing</i>,
-accepted, 2021.</span></a><span lang=EN-US style='mso-bidi-font-size:12.0pt;
-line-height:150%;color:#222222;background:white;mso-font-kerning:0pt'> <b><o:p></o:p></b></span></p>
+</span></b></span></a><span class=SpellE><span style='mso-bookmark:"RANGE\!B3"'><span
+style='mso-bookmark:"RANGE\!B2"'><b><span lang=EN-US style='mso-bidi-font-size:
+12.0pt;line-height:150%;color:#222222;background:white;mso-font-kerning:0pt'>Zheng</span></b></span></span></span><span
+style='mso-bookmark:"RANGE\!B3"'><span style='mso-bookmark:"RANGE\!B2"'><span
+lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;color:#222222;
+background:white;mso-font-kerning:0pt'>, X. Chen, X. Lu<b>*</b>, and B. Sun, &quot;Unsupervised
+Change Detection by Cross-Resolution Difference Learning,&quot; <i>IEEE
+Transactions on Geoscience and Remote Sensing</i>, accepted, 2021.</span></span></span><span
+style='mso-bookmark:"RANGE\!B2"'><span lang=EN-US style='mso-bidi-font-size:
+12.0pt;line-height:150%;color:#222222;background:white;mso-font-kerning:0pt'> <b><o:p></o:p></b></span></span></p>
 
 <p class=MsoListParagraph style='margin-left:21.1pt;text-indent:-21.1pt;
-mso-char-indent-count:-2.0;line-height:150%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+mso-char-indent-count:-2.0;line-height:150%;mso-list:l4 level1 lfo18'><span
+style='mso-bookmark:"RANGE\!B2"'><a name="RANGE!B4"><![if !supportLists]><span
 lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:
 "Times New Roman";color:black;mso-font-kerning:0pt;mso-bidi-font-weight:bold'><span
 style='mso-list:Ignore'>[2]<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><b><span lang=EN-US style='mso-bidi-font-size:
 12.0pt;line-height:150%;color:#222222;background:white;mso-font-kerning:0pt'>X.
-<span class=SpellE>Zheng</span></span></b><a name="RANGE!B4"><span lang=EN-US
-style='mso-bidi-font-size:12.0pt;line-height:150%;color:#222222;background:
-white;mso-font-kerning:0pt'>, B. Wang, X. Du, and X. Lu*, &quot;Mutual
+</span></b></a><span class=SpellE><span style='mso-bookmark:"RANGE\!B4"'><b><span
+lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;color:#222222;
+background:white;mso-font-kerning:0pt'>Zheng</span></b></span></span></span><span
+style='mso-bookmark:"RANGE\!B2"'><span style='mso-bookmark:"RANGE\!B4"'><span
+lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;color:#222222;
+background:white;mso-font-kerning:0pt'>, B. Wang, X. Du, and X. Lu*, &quot;Mutual
 Attention Inception Network for Remote Sensing Visual Question Answering,&quot;
-<i>IEEE Transactions on Geoscience and Remote Sensing</i>, accepted, 2021.</span></a><b
-style='mso-bidi-font-weight:normal'><span lang=EN-US style='mso-bidi-font-size:
-12.0pt;line-height:150%;color:#222222;background:white;mso-font-kerning:0pt'> <span
-style='mso-bidi-font-weight:bold'><o:p></o:p></span></span></b></p>
+<i>IEEE Transactions on Geoscience and Remote Sensing</i>, accepted, 2021.</span></span></span><span
+style='mso-bookmark:"RANGE\!B2"'><b style='mso-bidi-font-weight:normal'><span
+lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;color:#222222;
+background:white;mso-font-kerning:0pt'> <span style='mso-bidi-font-weight:bold'><o:p></o:p></span></span></b></span></p>
 
 <p class=MsoListParagraph style='margin-left:21.1pt;text-indent:-21.1pt;
-mso-char-indent-count:-2.0;line-height:150%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
-lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:
-"Times New Roman";color:black;mso-font-kerning:0pt;mso-bidi-font-weight:bold'><span
+mso-char-indent-count:-2.0;line-height:150%;mso-list:l4 level1 lfo18'><span
+style='mso-bookmark:"RANGE\!B2"'><![if !supportLists]><span lang=EN-US
+style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:"Times New Roman";
+color:black;mso-font-kerning:0pt;mso-bidi-font-weight:bold'><span
 style='mso-list:Ignore'>[3]<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><b><span lang=EN-US style='mso-bidi-font-size:
 12.0pt;line-height:150%;color:#222222;background:white;mso-font-kerning:0pt'>X.
-<span class=SpellE>Zheng</span></span></b><span lang=EN-US style='mso-bidi-font-size:
-12.0pt;line-height:150%;color:#222222;background:white;mso-font-kerning:0pt'>,
-L. Qi, Y. <span class=SpellE>Ren</span>, and X. Lu*, &quot;Fine-grained Visual
-Categorization by Localizing Object Parts with Single Image,&quot; <i>IEEE
-Transactions on Multimedia</i>, vol. 23, pp. 1187-1199, May 2020.<b
-style='mso-bidi-font-weight:normal'> <span style='mso-bidi-font-weight:bold'><o:p></o:p></span></b></span></p>
+<span class=SpellE>Zheng</span></span></b></span><span style='mso-bookmark:
+"RANGE\!B2"'><span lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:
+150%;color:#222222;background:white;mso-font-kerning:0pt'>, L. Qi, Y. <span
+class=SpellE>Ren</span>, and X. Lu*, &quot;Fine-grained Visual Categorization by
+Localizing Object Parts with Single Image,&quot; <i>IEEE Transactions on
+Multimedia</i>, vol. 23, pp. 1187-1199, May 2020.<b style='mso-bidi-font-weight:
+normal'> <span style='mso-bidi-font-weight:bold'><o:p></o:p></span></b></span></span></p>
 
 <p class=MsoListParagraph style='margin-left:21.1pt;text-indent:-21.1pt;
-mso-char-indent-count:-2.0;line-height:150%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
-lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:
-"Times New Roman";color:black;mso-font-kerning:0pt;mso-bidi-font-weight:bold'><span
+mso-char-indent-count:-2.0;line-height:150%;mso-list:l4 level1 lfo18'><span
+style='mso-bookmark:"RANGE\!B2"'><![if !supportLists]><span lang=EN-US
+style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:"Times New Roman";
+color:black;mso-font-kerning:0pt;mso-bidi-font-weight:bold'><span
 style='mso-list:Ignore'>[4]<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><b><span lang=EN-US style='mso-bidi-font-size:
 12.0pt;line-height:150%;color:#222222;background:white;mso-font-kerning:0pt'>X.
-<span class=SpellE>Zheng</span></span></b><span lang=EN-US style='mso-bidi-font-size:
-12.0pt;line-height:150%;color:#222222;background:white;mso-font-kerning:0pt'>,
-X. Chen, and X. Lu* &quot;A Joint Relationship Aware Neural Network for
-Single-Image 3D Human Pose Estimation,&quot; <i>IEEE Transactions on Image
-Processing, </i>vol.29, pp. 4747-4758, Feb. 2020. <b><o:p></o:p></b></span></p>
+<span class=SpellE>Zheng</span></span></b></span><span style='mso-bookmark:
+"RANGE\!B2"'><span lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:
+150%;color:#222222;background:white;mso-font-kerning:0pt'>, X. Chen, and X. Lu*
+&quot;A Joint Relationship Aware Neural Network for Single-Image 3D Human Pose
+Estimation,&quot; <i>IEEE Transactions on Image Processing, </i>vol.29, pp.
+4747-4758, Feb. 2020. <b><o:p></o:p></b></span></span></p>
 
 <p class=MsoListParagraph style='margin-left:21.1pt;text-indent:-21.1pt;
-mso-char-indent-count:-2.0;line-height:150%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
-lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:
-"Times New Roman";color:black;mso-font-kerning:0pt;mso-bidi-font-weight:bold'><span
+mso-char-indent-count:-2.0;line-height:150%;mso-list:l4 level1 lfo18'><span
+style='mso-bookmark:"RANGE\!B2"'><![if !supportLists]><span lang=EN-US
+style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:"Times New Roman";
+color:black;mso-font-kerning:0pt;mso-bidi-font-weight:bold'><span
 style='mso-list:Ignore'>[5]<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><b><span lang=EN-US style='mso-bidi-font-size:
 12.0pt;line-height:150%;color:#222222;background:white;mso-font-kerning:0pt'>X.
-<span class=SpellE>Zheng</span></span></b><span lang=EN-US style='mso-bidi-font-size:
-12.0pt;line-height:150%;color:#222222;background:white;mso-font-kerning:0pt'>,
-Y. Yuan, and X. Lu*, &quot;A Deep Scene Representation for Aerial Scene
-Classification,&quot; <i>IEEE Transactions on Geoscience and Remote Sensing,</i>
-vol. 57, no. 7, 4799-4809, July 2019. <b><o:p></o:p></b></span></p>
+<span class=SpellE>Zheng</span></span></b></span><span style='mso-bookmark:
+"RANGE\!B2"'><span lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:
+150%;color:#222222;background:white;mso-font-kerning:0pt'>, Y. Yuan, and X.
+Lu*, &quot;A Deep Scene Representation for Aerial Scene Classification,&quot; <i>IEEE
+Transactions on Geoscience and Remote Sensing,</i> vol. 57, no. 7, 4799-4809,
+July 2019. <b><o:p></o:p></b></span></span></p>
 
 <p class=MsoListParagraph style='margin-left:21.1pt;text-indent:-21.1pt;
-mso-char-indent-count:-2.0;line-height:150%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
-lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:
-"Times New Roman";color:black;mso-font-kerning:0pt;mso-bidi-font-weight:bold'><span
+mso-char-indent-count:-2.0;line-height:150%;mso-list:l4 level1 lfo18'><span
+style='mso-bookmark:"RANGE\!B2"'><![if !supportLists]><span lang=EN-US
+style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:"Times New Roman";
+color:black;mso-font-kerning:0pt;mso-bidi-font-weight:bold'><span
 style='mso-list:Ignore'>[6]<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><b><span lang=EN-US style='mso-bidi-font-size:
 12.0pt;line-height:150%;color:#222222;background:white;mso-font-kerning:0pt'>X.
-<span class=SpellE>Zheng</span></span></b><span lang=EN-US style='mso-bidi-font-size:
-12.0pt;line-height:150%;color:#222222;background:white;mso-font-kerning:0pt'>,
-Y. Yuan, and X. Lu*, &quot;<span class=SpellE>Hyperspectral</span> Image <span
-class=SpellE>Denoising</span> by Fusing the Selected Related Bands,&quot; <i>IEEE
-Transactions on Geoscience and Remote Sensing,</i> vol. 57, no. 5, pp. 2596 –
-2609, May 2019. <b><o:p></o:p></b></span></p>
+<span class=SpellE>Zheng</span></span></b></span><span style='mso-bookmark:
+"RANGE\!B2"'><span lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:
+150%;color:#222222;background:white;mso-font-kerning:0pt'>, Y. Yuan, and X.
+Lu*, &quot;<span class=SpellE>Hyperspectral</span> Image <span class=SpellE>Denoising</span>
+by Fusing the Selected Related Bands,&quot; <i>IEEE Transactions on Geoscience
+and Remote Sensing,</i> vol. 57, no. 5, pp. 2596-2609, May 2019. <b><o:p></o:p></b></span></span></p>
 
 <p class=MsoListParagraph style='margin-left:21.1pt;text-indent:-21.1pt;
-mso-char-indent-count:-2.0;line-height:150%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
-lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:
-"Times New Roman";color:black;mso-font-kerning:0pt;mso-bidi-font-weight:bold'><span
+mso-char-indent-count:-2.0;line-height:150%;mso-list:l4 level1 lfo18'><span
+style='mso-bookmark:"RANGE\!B2"'><![if !supportLists]><span lang=EN-US
+style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:"Times New Roman";
+color:black;mso-font-kerning:0pt;mso-bidi-font-weight:bold'><span
 style='mso-list:Ignore'>[7]<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><b><span lang=EN-US style='mso-bidi-font-size:
 12.0pt;line-height:150%;color:#222222;background:white;mso-font-kerning:0pt'>X.
-<span class=SpellE>Zheng</span></span></b><span lang=EN-US style='mso-bidi-font-size:
-12.0pt;line-height:150%;color:#222222;background:white;mso-font-kerning:0pt'>,
-Y. Yuan, and X. Lu*, &quot;Dimensionality Reduction by Spatial-Spectral
-Preservation in Selected Bands,&quot; <i>IEEE Transactions on Geoscience and
-Remote Sensing</i>, vol. 55, no. 9, pp. 5185-5197, Sep. 2017. <b><o:p></o:p></b></span></p>
+<span class=SpellE>Zheng</span></span></b></span><span style='mso-bookmark:
+"RANGE\!B2"'><span lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:
+150%;color:#222222;background:white;mso-font-kerning:0pt'>, Y. Yuan, and X.
+Lu*, &quot;Dimensionality Reduction by Spatial-Spectral Preservation in
+Selected Bands,&quot; <i>IEEE Transactions on Geoscience and Remote Sensing</i>,
+vol. 55, no. 9, pp. 5185-5197, Sep. 2017. <b><o:p></o:p></b></span></span></p>
 
 <p class=MsoListParagraph style='margin-left:21.1pt;text-indent:-21.1pt;
-mso-char-indent-count:-2.0;line-height:150%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
-lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:
-"Times New Roman";color:black;mso-font-kerning:0pt;mso-bidi-font-weight:bold'><span
+mso-char-indent-count:-2.0;line-height:150%;mso-list:l4 level1 lfo18'><span
+style='mso-bookmark:"RANGE\!B2"'><![if !supportLists]><span lang=EN-US
+style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:"Times New Roman";
+color:black;mso-font-kerning:0pt;mso-bidi-font-weight:bold'><span
 style='mso-list:Ignore'>[8]<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><b><span lang=EN-US style='mso-bidi-font-size:
 12.0pt;line-height:150%;color:#222222;background:white;mso-font-kerning:0pt'>X.
-<span class=SpellE>Zheng</span></span></b><span lang=EN-US style='mso-bidi-font-size:
-12.0pt;line-height:150%;color:#222222;background:white;mso-font-kerning:0pt'>,
-Y. Zhang, and X. Lu*, &quot;Deep Balanced Discrete Hashing for Image
-Retrieval,&quot; <span class=SpellE><i>Neurocomputing</i></span>, vol. 403, pp.
-224-236, Aug. 2020.<b><o:p></o:p></b></span></p>
+<span class=SpellE>Zheng</span></span></b></span><span style='mso-bookmark:
+"RANGE\!B2"'><span lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:
+150%;color:#222222;background:white;mso-font-kerning:0pt'>, Y. Zhang, and X.
+Lu*, &quot;Deep Balanced Discrete Hashing for Image Retrieval,&quot; <span
+class=SpellE><i>Neurocomputing</i></span>, vol. 403, pp. 224-236, Aug. 2020.<b><o:p></o:p></b></span></span></p>
 
 <p class=MsoListParagraph style='margin-left:21.1pt;text-indent:-21.1pt;
-mso-char-indent-count:-2.0;line-height:150%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
-lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:
-"Times New Roman";color:black;mso-font-kerning:0pt;mso-bidi-font-weight:bold'><span
+mso-char-indent-count:-2.0;line-height:150%;mso-list:l4 level1 lfo18'><span
+style='mso-bookmark:"RANGE\!B2"'><![if !supportLists]><span lang=EN-US
+style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:"Times New Roman";
+color:black;mso-font-kerning:0pt;mso-bidi-font-weight:bold'><span
 style='mso-list:Ignore'>[9]<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><b><span lang=EN-US style='mso-bidi-font-size:
 12.0pt;line-height:150%;color:#222222;background:white;mso-font-kerning:0pt'>X.
-<span class=SpellE>Zheng</span>,</span></b><span lang=EN-US style='mso-bidi-font-size:
-12.0pt;line-height:150%;color:#222222;background:white;mso-font-kerning:0pt'>
-Y. Yuan, and X. Lu*, &quot;A Target Detection Method for <span class=SpellE>Hyperspectral</span>
+<span class=SpellE>Zheng</span>,</span></b></span><span style='mso-bookmark:
+"RANGE\!B2"'><span lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:
+150%;color:#222222;background:white;mso-font-kerning:0pt'> Y. Yuan, and X. Lu*,
+&quot;A Target Detection Method for <span class=SpellE>Hyperspectral</span>
 Image Based on Mixture Noise Model,&quot; <span class=SpellE><i>Neurocomputing</i></span>,
-vol. 216, pp. 331-341, Dec. 2016. <b><o:p></o:p></b></span></p>
+vol. 216, pp. 331-341, Dec. 2016. <b><o:p></o:p></b></span></span></p>
+
+<span style='mso-bookmark:"RANGE\!B2"'></span>
 
 <p class=MsoListParagraph style='margin-left:21.0pt;text-indent:-21.0pt;
-mso-char-indent-count:-2.0;line-height:150%;mso-list:l0 level1 lfo2'><a
-name="RANGE!B2"></a><![if !supportLists]><span lang=EN-US style='mso-bidi-font-size:
+mso-char-indent-count:-2.0;line-height:150%;mso-list:l4 level1 lfo18'><a
+name="RANGE!B5"><![if !supportLists]><span lang=EN-US style='mso-bidi-font-size:
 12.0pt;line-height:150%;mso-fareast-font-family:"Times New Roman";color:black;
 mso-font-kerning:0pt'><span style='mso-list:Ignore'>[10]<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span lang=EN-US style='mso-bidi-font-size:12.0pt;
-line-height:150%;color:#222222;background:white;mso-font-kerning:0pt'>H. <span
-class=SpellE>Ning</span><a name="RANGE!B5">, <b>X. </b></a><span class=SpellE><span
-style='mso-bookmark:"RANGE\!B5"'><b>Zheng</b></span></span><span
-style='mso-bookmark:"RANGE\!B5"'><b>*,</b> X. Lu, and Y. Yuan,
-&quot;Disentangled Representation Learning for Cross-Modal Biometric
-Matching,&quot; <i>IEEE Transactions on Multimedia</i>, accepted, 2021.</span> <o:p></o:p></span></p>
+line-height:150%;color:#222222;background:white;mso-font-kerning:0pt'>H. </span></a><span
+class=SpellE><span style='mso-bookmark:"RANGE\!B5"'><span lang=EN-US
+style='mso-bidi-font-size:12.0pt;line-height:150%;color:#222222;background:
+white;mso-font-kerning:0pt'>Ning</span></span></span><span style='mso-bookmark:
+"RANGE\!B5"'><span lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:
+150%;color:#222222;background:white;mso-font-kerning:0pt'>, <b>X. <span
+class=SpellE>Zheng</span>*,</b> X. Lu, and Y. Yuan, &quot;Disentangled
+Representation Learning for Cross-Modal Biometric Matching,&quot; <i>IEEE
+Transactions on Multimedia</i>, accepted, 2021.</span></span><span lang=EN-US
+style='mso-bidi-font-size:12.0pt;line-height:150%;color:#222222;background:
+white;mso-font-kerning:0pt'> <o:p></o:p></span></p>
 
 <p class=MsoListParagraph style='margin-left:21.0pt;text-indent:-21.0pt;
-mso-char-indent-count:-2.0;line-height:150%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+mso-char-indent-count:-2.0;line-height:150%;mso-list:l4 level1 lfo18'><![if !supportLists]><span
 lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:
 "Times New Roman";color:black;mso-font-kerning:0pt'><span style='mso-list:Ignore'>[11]<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
@@ -1268,42 +2568,65 @@ Image Classification,&quot; <i>IEEE Transactions on Image Processing,</i> vol.
 30, pp. 2810-2825, Feb. 2021. <o:p></o:p></span></p>
 
 <p class=MsoListParagraph style='margin-left:21.0pt;text-indent:-21.0pt;
-mso-char-indent-count:-2.0;line-height:150%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
-lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:
-"Times New Roman";color:black;mso-font-kerning:0pt'><span style='mso-list:Ignore'>[12]<span
-style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+mso-char-indent-count:-2.0;line-height:150%;mso-list:l4 level1 lfo18'><a
+name="RANGE!B9"><![if !supportLists]><span lang=EN-US style='mso-bidi-font-size:
+12.0pt;line-height:150%;mso-fareast-font-family:"Times New Roman";color:black;
+mso-font-kerning:0pt'><span style='mso-list:Ignore'>[12]<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span lang=EN-US style='mso-bidi-font-size:12.0pt;
+line-height:150%;color:#222222;background:white;mso-font-kerning:0pt'>X. Chen, <b>X.
+</b></span></a><span class=SpellE><span style='mso-bookmark:"RANGE\!B9"'><b><span
 lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;color:#222222;
-background:white;mso-font-kerning:0pt'>X. Chen, <b>X. <span class=SpellE>Zheng</span>*</b><a
-name="RANGE!B9">, and X. Lu, &quot;Bidirectional Interaction Network for Person
+background:white;mso-font-kerning:0pt'>Zheng</span></b></span></span><span
+style='mso-bookmark:"RANGE\!B9"'><b><span lang=EN-US style='mso-bidi-font-size:
+12.0pt;line-height:150%;color:#222222;background:white;mso-font-kerning:0pt'>*</span></b></span><span
+style='mso-bookmark:"RANGE\!B9"'><span lang=EN-US style='mso-bidi-font-size:
+12.0pt;line-height:150%;color:#222222;background:white;mso-font-kerning:0pt'>,
+and X. Lu, &quot;Bidirectional Interaction Network for Person
 Re-Identification,&quot; <i>IEEE Transactions on Image Processing,</i> vol. 30,
-pp. 1935-1948, Jan. 2021.</a> <o:p></o:p></span></p>
+pp. 1935-1948, Jan. 2021.</span></span><span lang=EN-US style='mso-bidi-font-size:
+12.0pt;line-height:150%;color:#222222;background:white;mso-font-kerning:0pt'> <o:p></o:p></span></p>
 
 <p class=MsoListParagraph style='margin-left:21.0pt;text-indent:-21.0pt;
-mso-char-indent-count:-2.0;line-height:150%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
-lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:
-"Times New Roman";color:black;mso-font-kerning:0pt'><span style='mso-list:Ignore'>[13]<span
-style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+mso-char-indent-count:-2.0;line-height:150%;mso-list:l4 level1 lfo18'><a
+name="RANGE!B10"><![if !supportLists]><span lang=EN-US style='mso-bidi-font-size:
+12.0pt;line-height:150%;mso-fareast-font-family:"Times New Roman";color:black;
+mso-font-kerning:0pt'><span style='mso-list:Ignore'>[13]<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span lang=EN-US style='mso-bidi-font-size:12.0pt;
+line-height:150%;color:#222222;background:white;mso-font-kerning:0pt'>X. Du, <b>X.
+</b></span></a><span class=SpellE><span style='mso-bookmark:"RANGE\!B10"'><b><span
 lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;color:#222222;
-background:white;mso-font-kerning:0pt'>X. Du, <b>X. <span class=SpellE>Zheng</span>*</b><a
-name="RANGE!B10">, X. Lu, and A. </a><span class=SpellE><span style='mso-bookmark:
-"RANGE\!B10"'>Doudkin</span></span><span style='mso-bookmark:"RANGE\!B10"'>,
-&quot;Multisource Remote Sensing Data Classification With Graph Fusion
-Network,&quot; <i>IEEE Transactions on Geoscience and Remote Sensing</i>,
-accepted, 2021.</span> <o:p></o:p></span></p>
-
-<p class=MsoListParagraph style='margin-left:21.0pt;text-indent:-21.0pt;
-mso-char-indent-count:-2.0;line-height:150%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
-lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:
-"Times New Roman";color:black;mso-font-kerning:0pt'><span style='mso-list:Ignore'>[14]<span
-style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+background:white;mso-font-kerning:0pt'>Zheng</span></b></span></span><span
+style='mso-bookmark:"RANGE\!B10"'><b><span lang=EN-US style='mso-bidi-font-size:
+12.0pt;line-height:150%;color:#222222;background:white;mso-font-kerning:0pt'>*</span></b></span><span
+style='mso-bookmark:"RANGE\!B10"'><span lang=EN-US style='mso-bidi-font-size:
+12.0pt;line-height:150%;color:#222222;background:white;mso-font-kerning:0pt'>,
+X. Lu, and A. <span class=SpellE>Doudkin</span>, &quot;Multisource Remote
+Sensing Data Classification With Graph Fusion Network,&quot; <i>IEEE
+Transactions on Geoscience and Remote Sensing</i>, accepted, 2021.</span></span><span
 lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;color:#222222;
-background:white;mso-font-kerning:0pt'>T. Gong, <b>X. <span class=SpellE>Zheng</span>*</b><a
-name="RANGE!B11">, and X. Lu, &quot;Cross-Domain Scene Classification by
-Integrating Multiple Incomplete Sources,&quot; <i>IEEE Transactions on
-Geoscience and Remote Sensing</i>, </a>accepted, 2021. <o:p></o:p></span></p>
+background:white;mso-font-kerning:0pt'> <o:p></o:p></span></p>
 
 <p class=MsoListParagraph style='margin-left:21.0pt;text-indent:-21.0pt;
-mso-char-indent-count:-2.0;line-height:150%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+mso-char-indent-count:-2.0;line-height:150%;mso-list:l4 level1 lfo18'><a
+name="RANGE!B11"><![if !supportLists]><span lang=EN-US style='mso-bidi-font-size:
+12.0pt;line-height:150%;mso-fareast-font-family:"Times New Roman";color:black;
+mso-font-kerning:0pt'><span style='mso-list:Ignore'>[14]<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span lang=EN-US style='mso-bidi-font-size:12.0pt;
+line-height:150%;color:#222222;background:white;mso-font-kerning:0pt'>T. Gong, <b>X.
+</b></span></a><span class=SpellE><span style='mso-bookmark:"RANGE\!B11"'><b><span
+lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;color:#222222;
+background:white;mso-font-kerning:0pt'>Zheng</span></b></span></span><span
+style='mso-bookmark:"RANGE\!B11"'><b><span lang=EN-US style='mso-bidi-font-size:
+12.0pt;line-height:150%;color:#222222;background:white;mso-font-kerning:0pt'>*</span></b></span><span
+style='mso-bookmark:"RANGE\!B11"'><span lang=EN-US style='mso-bidi-font-size:
+12.0pt;line-height:150%;color:#222222;background:white;mso-font-kerning:0pt'>,
+and X. Lu, &quot;Cross-Domain Scene Classification by Integrating Multiple
+Incomplete Sources,&quot; <i>IEEE Transactions on Geoscience and Remote Sensing</i>,
+</span></span><span lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:
+150%;color:#222222;background:white;mso-font-kerning:0pt'>accepted, 2021. <o:p></o:p></span></p>
+
+<p class=MsoListParagraph style='margin-left:21.0pt;text-indent:-21.0pt;
+mso-char-indent-count:-2.0;line-height:150%;mso-list:l4 level1 lfo18'><![if !supportLists]><span
 lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:
 "Times New Roman";color:black;mso-font-kerning:0pt'><span style='mso-list:Ignore'>[15]<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
@@ -1314,7 +2637,7 @@ Remote Sensing Image Classification,&quot; <i>IEEE Transactions on Geoscience
 and Remote Sensing</i>, vol. 58, no. 12, pp. 8358-8371, Dec. 2020. <o:p></o:p></span></p>
 
 <p class=MsoListParagraph style='margin-left:21.0pt;text-indent:-21.0pt;
-mso-char-indent-count:-2.0;line-height:150%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+mso-char-indent-count:-2.0;line-height:150%;mso-list:l4 level1 lfo18'><![if !supportLists]><span
 lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:
 "Times New Roman";color:black;mso-font-kerning:0pt'><span style='mso-list:Ignore'>[16]<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
@@ -1322,10 +2645,10 @@ lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;color:#222222;
 background:white;mso-font-kerning:0pt'>X. Lu, T. Gong, and <b>X. <span
 class=SpellE>Zheng</span>*</b>, &quot;Multisource Compensation Network for
 Remote Sensing Cross-Domain Scene Classification,&quot; <i>IEEE Transactions on
-Geoscience and Remote Sensing</i>, vol. 58, no. 4, pp. 2504–2515, Apr. 2020. <o:p></o:p></span></p>
+Geoscience and Remote Sensing</i>, vol. 58, no. 4, pp. 2504-2515, Apr. 2020. <o:p></o:p></span></p>
 
 <p class=MsoListParagraph style='margin-left:21.0pt;text-indent:-21.0pt;
-mso-char-indent-count:-2.0;line-height:150%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+mso-char-indent-count:-2.0;line-height:150%;mso-list:l4 level1 lfo18'><![if !supportLists]><span
 lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:
 "Times New Roman";color:black;mso-font-kerning:0pt'><span style='mso-list:Ignore'>[17]<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
@@ -1333,11 +2656,11 @@ lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;color:#222222;
 background:white;mso-font-kerning:0pt'>H. Sun, <b>X. <span class=SpellE>Zheng</span>*</b>,
 X. Lu, and S. Wu, &quot;Spectral-Spatial Attention Network for <span
 class=SpellE>Hyperspectral</span> Image Classification,&quot; <i>IEEE
-Transactions on Geoscience and Remote Sensing</i>, vol. 58, no.5, pp.
-3232-3245, May 2020. <o:p></o:p></span></p>
+Transactions on Geoscience and Remote Sensing</i>, vol. 58, no.5, pp. 3232-3245,
+May 2020. <o:p></o:p></span></p>
 
 <p class=MsoListParagraph style='margin-left:21.0pt;text-indent:-21.0pt;
-mso-char-indent-count:-2.0;line-height:150%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+mso-char-indent-count:-2.0;line-height:150%;mso-list:l4 level1 lfo18'><![if !supportLists]><span
 lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:
 "Times New Roman";color:black;mso-font-kerning:0pt'><span style='mso-list:Ignore'>[18]<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
@@ -1345,13 +2668,13 @@ lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;color:#222222;
 background:white;mso-font-kerning:0pt'>H. Sun, S. Li, <b>X. <span class=SpellE>Zheng</span>*</b>,
 and X. Lu, &quot;Remote Sensing Scene Classification by Gated Bidirectional
 Network,&quot; <i>IEEE Transactions on Geoscience and Remote Sensing</i>, vol.
-58, no. 1, pp. 82–96, Jan. 2020.</span><span lang=EN-US style='mso-bidi-font-size:
+58, no. 1, pp. 82-96, Jan. 2020.</span><span lang=EN-US style='mso-bidi-font-size:
 12.0pt;line-height:150%;color:red;background:white;mso-font-kerning:0pt'> </span><span
 lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;color:#222222;
 background:white;mso-font-kerning:0pt'><o:p></o:p></span></p>
 
 <p class=MsoListParagraph style='margin-left:21.0pt;text-indent:-21.0pt;
-mso-char-indent-count:-2.0;line-height:150%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+mso-char-indent-count:-2.0;line-height:150%;mso-list:l4 level1 lfo18'><![if !supportLists]><span
 lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:
 "Times New Roman";color:black;mso-font-kerning:0pt'><span style='mso-list:Ignore'>[19]<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
@@ -1362,7 +2685,7 @@ Description from Image by Modal Translation Network,&quot; <span class=SpellE><i
 vol. 423, pp. 124-134, Jan. 2021.<b style='mso-bidi-font-weight:normal'> </b><o:p></o:p></span></p>
 
 <p class=MsoListParagraph style='margin-left:21.0pt;text-indent:-21.0pt;
-mso-char-indent-count:-2.0;line-height:150%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+mso-char-indent-count:-2.0;line-height:150%;mso-list:l4 level1 lfo18'><![if !supportLists]><span
 lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:
 "Times New Roman";color:black;mso-font-kerning:0pt'><span style='mso-list:Ignore'>[20]<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
@@ -1374,7 +2697,7 @@ class=SpellE><i>Neurocomputing</i></span>, 2020.<b style='mso-bidi-font-weight:
 normal'> </b><o:p></o:p></span></p>
 
 <p class=MsoListParagraph style='margin-left:21.0pt;text-indent:-21.0pt;
-mso-char-indent-count:-2.0;line-height:150%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+mso-char-indent-count:-2.0;line-height:150%;mso-list:l4 level1 lfo18'><![if !supportLists]><span
 lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:
 "Times New Roman";color:black;mso-font-kerning:0pt'><span style='mso-list:Ignore'>[21]<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
@@ -1386,7 +2709,7 @@ class=SpellE><i>Neurocomputing</i></span>, vol. 413, pp. 383-396, Nov. 2020.<b
 style='mso-bidi-font-weight:normal'> </b><o:p></o:p></span></p>
 
 <p class=MsoListParagraph style='margin-left:21.0pt;text-indent:-21.0pt;
-mso-char-indent-count:-2.0;line-height:150%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+mso-char-indent-count:-2.0;line-height:150%;mso-list:l4 level1 lfo18'><![if !supportLists]><span
 lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:
 "Times New Roman";color:black;mso-font-kerning:0pt'><span style='mso-list:Ignore'>[22]<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
@@ -1397,7 +2720,7 @@ Sensing Image Generation <span class=GramE>From</span> Audio,&quot; <i>IEEE
 Geoscience and Remote Sensing Letters</i>, 2020. <o:p></o:p></span></p>
 
 <p class=MsoListParagraph style='margin-left:21.0pt;text-indent:-21.0pt;
-mso-char-indent-count:-2.0;line-height:150%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+mso-char-indent-count:-2.0;line-height:150%;mso-list:l4 level1 lfo18'><![if !supportLists]><span
 lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:
 "Times New Roman";color:black;mso-font-kerning:0pt'><span style='mso-list:Ignore'>[23]<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
@@ -1408,7 +2731,7 @@ Spectral Super-Resolution,&quot; <i>IEEE Geoscience and Remote Sensing Letters</
 accepted, 2021.<b style='mso-bidi-font-weight:normal'> </b><o:p></o:p></span></p>
 
 <p class=MsoListParagraph style='margin-left:21.0pt;text-indent:-21.0pt;
-mso-char-indent-count:-2.0;line-height:150%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+mso-char-indent-count:-2.0;line-height:150%;mso-list:l4 level1 lfo18'><![if !supportLists]><span
 lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:
 "Times New Roman";color:black;mso-font-kerning:0pt'><span style='mso-list:Ignore'>[24]<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
@@ -1419,7 +2742,7 @@ with Self-Supervised Spectral-Spatial Residual Network,&quot;<i> Remote Sensing<
 vol. 13, no. 7, pp. 1260, Mar. 2021.<o:p></o:p></span></p>
 
 <p class=MsoListParagraph style='margin-left:21.0pt;text-indent:-21.0pt;
-mso-char-indent-count:-2.0;line-height:150%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+mso-char-indent-count:-2.0;line-height:150%;mso-list:l4 level1 lfo18'><![if !supportLists]><span
 lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:
 "Times New Roman";color:black;mso-font-kerning:0pt'><span style='mso-list:Ignore'>[25]<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
@@ -1431,7 +2754,7 @@ italic'>,&quot;<i> IEEE Journal of Selected Topics in Applied Earth
 Observations and Remote Sensing</i></span>, vol. 13, pp. 256-270, Feb. 2020. <o:p></o:p></span></p>
 
 <p class=MsoListParagraph style='margin-left:21.0pt;text-indent:-21.0pt;
-mso-char-indent-count:-2.0;line-height:150%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+mso-char-indent-count:-2.0;line-height:150%;mso-list:l4 level1 lfo18'><![if !supportLists]><span
 lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:
 "Times New Roman";color:black;mso-font-kerning:0pt'><span style='mso-list:Ignore'>[26]<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
@@ -1442,7 +2765,7 @@ Network for Road Crack Detection,&quot;<i> IEEE Access</i>, vol. 7, pp.
 130032-130043, 2019. <o:p></o:p></span></p>
 
 <p class=MsoListParagraph style='margin-left:21.0pt;text-indent:-21.0pt;
-mso-char-indent-count:-2.0;line-height:150%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+mso-char-indent-count:-2.0;line-height:150%;mso-list:l4 level1 lfo18'><![if !supportLists]><span
 lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:
 "Times New Roman";color:black;mso-font-kerning:0pt'><span style='mso-list:Ignore'>[27]<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
@@ -1453,7 +2776,7 @@ Adaptive Feature Fusion for Remote Sensing Scene Classification,&quot; <span
 class=SpellE><i>Neurocomputing</i></span>, vol. 328, pp. 135-146, Feb. 2019. <o:p></o:p></span></p>
 
 <p class=MsoListParagraph style='margin-left:21.0pt;text-indent:-21.0pt;
-mso-char-indent-count:-2.0;line-height:150%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+mso-char-indent-count:-2.0;line-height:150%;mso-list:l4 level1 lfo18'><![if !supportLists]><span
 lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:
 "Times New Roman";color:black;mso-font-kerning:0pt'><span style='mso-list:Ignore'>[28]<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
@@ -1465,7 +2788,7 @@ Sensing Letters</i>, vol. 16, no. 8, pp. 1274-1278, Aug. 2019.<b
 style='mso-bidi-font-weight:normal'> </b><o:p></o:p></span></p>
 
 <p class=MsoListParagraph style='margin-left:21.0pt;text-indent:-21.0pt;
-mso-char-indent-count:-2.0;line-height:150%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+mso-char-indent-count:-2.0;line-height:150%;mso-list:l4 level1 lfo18'><![if !supportLists]><span
 lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:
 "Times New Roman";color:black;mso-font-kerning:0pt'><span style='mso-list:Ignore'>[29]<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
@@ -1477,7 +2800,7 @@ Earth Observations and Remote Sensing</i>, vol. 10, no. 5, pp. 1963-1974, May
 2017. <o:p></o:p></span></p>
 
 <p class=MsoListParagraph style='margin-left:21.0pt;text-indent:-21.0pt;
-mso-char-indent-count:-2.0;line-height:150%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+mso-char-indent-count:-2.0;line-height:150%;mso-list:l4 level1 lfo18'><![if !supportLists]><span
 lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:
 "Times New Roman";color:black;mso-font-kerning:0pt'><span style='mso-list:Ignore'>[30]<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
@@ -1488,7 +2811,7 @@ Remote Sensing Image Captioning,&quot; <i>IEEE Transactions on Geoscience and
 Remote Sensing,</i> vol. 58, no. 3, pp. 1985-2000, Mar. 2020. <o:p></o:p></span></p>
 
 <p class=MsoListParagraph style='margin-left:21.0pt;text-indent:-21.0pt;
-mso-char-indent-count:-2.0;line-height:150%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+mso-char-indent-count:-2.0;line-height:150%;mso-list:l4 level1 lfo18'><![if !supportLists]><span
 lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:
 "Times New Roman";color:black;mso-font-kerning:0pt'><span style='mso-list:Ignore'>[31]<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
@@ -1499,7 +2822,7 @@ Network for Remote Sensing Scene Classification,&quot; <i>IEEE Transactions on
 Geoscience and Remote Sensing</i>, vol. 57, no. 10, 7894-7906, Oct. 2019. <o:p></o:p></span></p>
 
 <p class=MsoListParagraph style='margin-left:21.0pt;text-indent:-21.0pt;
-mso-char-indent-count:-2.0;line-height:150%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+mso-char-indent-count:-2.0;line-height:150%;mso-list:l4 level1 lfo18'><![if !supportLists]><span
 lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:
 "Times New Roman";color:black;mso-font-kerning:0pt'><span style='mso-list:Ignore'>[32]<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
@@ -1510,18 +2833,18 @@ Remote Sensing Image Caption Generation,&quot; <i>IEEE Transactions on
 Geoscience and Remote Sensing</i>, vol. 56, no. 4, pp. 2183-2195, Apr. 2018. <o:p></o:p></span></p>
 
 <p class=MsoListParagraph style='margin-left:21.0pt;text-indent:-21.0pt;
-mso-char-indent-count:-2.0;line-height:150%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+mso-char-indent-count:-2.0;line-height:150%;mso-list:l4 level1 lfo18'><![if !supportLists]><span
 lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:
 "Times New Roman";color:black;mso-font-kerning:0pt'><span style='mso-list:Ignore'>[33]<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
 lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;color:#222222;
 background:white;mso-font-kerning:0pt'>X. Lu*, <b>X. <span class=SpellE>Zheng</span></b>,
 and Y. Yuan, &quot;Remote Sensing Scene Classification by Unsupervised
-Representation Learning,&quot; <i>IEEE Transactions on Geoscience and Remote
-Sensing</i>, vol. 55, no. 9, pp. 5148-5157, Sep. 2017. <o:p></o:p></span></p>
+Representation Learning,&quot; <i>IEEE Transactions on Geoscience and Remote Sensing</i>,
+vol. 55, no. 9, pp. 5148-5157, Sep. 2017. <o:p></o:p></span></p>
 
 <p class=MsoListParagraph style='margin-left:21.0pt;text-indent:-21.0pt;
-mso-char-indent-count:-2.0;line-height:150%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+mso-char-indent-count:-2.0;line-height:150%;mso-list:l4 level1 lfo18'><![if !supportLists]><span
 lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:
 "Times New Roman";color:black;mso-font-kerning:0pt'><span style='mso-list:Ignore'>[34]<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
@@ -1534,7 +2857,7 @@ style='mso-bidi-font-size:12.0pt;line-height:150%;color:red;background:white;
 mso-font-kerning:0pt'><o:p></o:p></span></p>
 
 <p class=MsoListParagraph style='margin-left:21.0pt;text-indent:-21.0pt;
-mso-char-indent-count:-2.0;line-height:150%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+mso-char-indent-count:-2.0;line-height:150%;mso-list:l4 level1 lfo18'><![if !supportLists]><span
 lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:
 "Times New Roman";color:black;mso-font-kerning:0pt'><span style='mso-list:Ignore'>[35]<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
@@ -1544,7 +2867,7 @@ and X. Li, &quot;Latent Semantic Minimal Hashing for Image Retrieval,&quot; <i>I
 Transactions on Image Processing</i>, vol. 26, no. 1, 51-64, Jan. 2017. <o:p></o:p></span></p>
 
 <p class=MsoListParagraph style='margin-left:21.0pt;text-indent:-21.0pt;
-mso-char-indent-count:-2.0;line-height:150%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+mso-char-indent-count:-2.0;line-height:150%;mso-list:l4 level1 lfo18'><![if !supportLists]><span
 lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:
 "Times New Roman";color:black;mso-font-kerning:0pt'><span style='mso-list:Ignore'>[36]<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
@@ -1555,17 +2878,17 @@ class=SpellE>Hyperspectral</span> Band Selection,&quot; <i>IEEE Transactions on
 Image Processing</i>, vol. 26, no. 1, 51-64, Jan. 2017. <o:p></o:p></span></p>
 
 <p class=MsoListParagraph style='margin-left:21.0pt;text-indent:-21.0pt;
-mso-char-indent-count:-2.0;line-height:150%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+mso-char-indent-count:-2.0;line-height:150%;mso-list:l4 level1 lfo18'><![if !supportLists]><span
 lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:
 "Times New Roman";color:black;mso-font-kerning:0pt'><span style='mso-list:Ignore'>[37]<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
 lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;color:#222222;
 background:white;mso-font-kerning:0pt'>Y. Yuan, <b>X. <span class=SpellE>Zheng</span></b>,
-and X. Lu*, &quot;A Discriminative Representation for Human Action
-Recognition,&quot; <i>Pattern Recognition</i>, vol. 59, pp. 88-97, Nov. 2016. <o:p></o:p></span></p>
+and X. Lu*, &quot;A Discriminative Representation for Human Action Recognition,&quot;
+<i>Pattern Recognition</i>, vol. 59, pp. 88-97, Nov. 2016. <o:p></o:p></span></p>
 
 <p class=MsoListParagraph style='margin-left:21.0pt;text-indent:-21.0pt;
-mso-char-indent-count:-2.0;line-height:150%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+mso-char-indent-count:-2.0;line-height:150%;mso-list:l4 level1 lfo18'><![if !supportLists]><span
 lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:
 "Times New Roman";color:black;mso-font-kerning:0pt'><span style='mso-list:Ignore'>[38]<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
@@ -1573,21 +2896,28 @@ lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;color:#222222;
 background:white;mso-font-kerning:0pt'>Y. Yuan*, <b>X. <span class=SpellE>Zheng</span></b>,
 and X. Lu, &quot;Spectral-Spatial Kernel Regularized for <span class=SpellE>Hyperspectral</span>
 Image <span class=SpellE>Denoising</span>,&quot; <i>IEEE Transactions on
-Geoscience and Remote Sensing</i>, vol. 53, no. 7, pp. 3815–3832, Jul. 2015.<o:p></o:p></span></p>
+Geoscience and Remote Sensing</i>, vol. 53, no. 7, pp. 3815-3832, Jul. 2015.<o:p></o:p></span></p>
 
 <p class=MsoListParagraph style='margin-left:21.0pt;text-indent:-21.0pt;
-mso-char-indent-count:-2.0;line-height:150%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
-lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:
-"Times New Roman";color:black;mso-font-kerning:0pt'><span style='mso-list:Ignore'>[39]<span
-style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+mso-char-indent-count:-2.0;line-height:150%;mso-list:l4 level1 lfo18'><a
+name="RANGE!B6"><![if !supportLists]><span lang=EN-US style='mso-bidi-font-size:
+12.0pt;line-height:150%;mso-fareast-font-family:"Times New Roman";color:black;
+mso-font-kerning:0pt'><span style='mso-list:Ignore'>[39]<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span lang=EN-US style='mso-bidi-font-size:12.0pt;
+line-height:150%;color:#222222;background:white;mso-font-kerning:0pt'>Y. Jiao, <b>X.
+</b></span></a><span class=SpellE><span style='mso-bookmark:"RANGE\!B6"'><b><span
 lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;color:#222222;
-background:white;mso-font-kerning:0pt'>Y. Jiao, <b>X. <span class=SpellE>Zheng</span></b><a
-name="RANGE!B6">, and X. Lu, &quot;Attention-Based Multi-Branch Network for
-Low-Light Image Enhancement,&quot; <i>International Conference on Big Data,
-Artificial Intelligence and Internet of Things Engineering</i> (ICBAIE), 2021.</a><o:p></o:p></span></p>
+background:white;mso-font-kerning:0pt'>Zheng</span></b></span></span><span
+style='mso-bookmark:"RANGE\!B6"'><span lang=EN-US style='mso-bidi-font-size:
+12.0pt;line-height:150%;color:#222222;background:white;mso-font-kerning:0pt'>,
+and X. Lu, &quot;Attention-Based Multi-Branch Network for Low-Light Image
+Enhancement,&quot; <i>International Conference on Big Data, Artificial
+Intelligence and Internet of Things Engineering</i> (ICBAIE), 2021.</span></span><span
+lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;color:#222222;
+background:white;mso-font-kerning:0pt'><o:p></o:p></span></p>
 
 <p class=MsoListParagraph style='margin-left:21.0pt;text-indent:-21.0pt;
-mso-char-indent-count:-2.0;line-height:150%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+mso-char-indent-count:-2.0;line-height:150%;mso-list:l4 level1 lfo18'><![if !supportLists]><span
 lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:
 "Times New Roman";color:black;mso-font-kerning:0pt'><span style='mso-list:Ignore'>[40]<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
@@ -1601,18 +2931,18 @@ Monitoring Agricultural Vegetation,&quot; <i>International Symposium on
 Symbolic and Numeric Algorithms for Scientific Computing (SYNASC)</i>, 2020.<o:p></o:p></span></p>
 
 <p class=MsoListParagraph style='margin-left:21.0pt;text-indent:-21.0pt;
-mso-char-indent-count:-2.0;line-height:150%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+mso-char-indent-count:-2.0;line-height:150%;mso-list:l4 level1 lfo18'><![if !supportLists]><span
 lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:
 "Times New Roman";color:black;mso-font-kerning:0pt'><span style='mso-list:Ignore'>[41]<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
 lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;color:#222222;
 background:white;mso-font-kerning:0pt'>T. Gong, X. <span class=SpellE>Zheng</span>*,
-and X. Lu, &quot;Remote Sensing Scene Classification with Multi-Task
-Learning&quot;, <i style='mso-bidi-font-style:normal'>Proceedings of the 7th
-China High Resolution Earth Observation Conference (CHREOC 2020)</i>, 2020.<o:p></o:p></span></p>
+and X. Lu, &quot;Remote Sensing Scene Classification with Multi-Task Learning&quot;,
+<i style='mso-bidi-font-style:normal'>Proceedings of the 7th China High
+Resolution Earth Observation Conference (CHREOC 2020)</i>, 2020.<o:p></o:p></span></p>
 
 <p class=MsoListParagraph style='margin-left:21.0pt;text-indent:-21.0pt;
-mso-char-indent-count:-2.0;line-height:150%;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+mso-char-indent-count:-2.0;line-height:150%;mso-list:l4 level1 lfo18'><![if !supportLists]><span
 lang=EN-US style='mso-bidi-font-size:12.0pt;line-height:150%;mso-fareast-font-family:
 "Times New Roman";color:black;mso-font-kerning:0pt'><span style='mso-list:Ignore'>[42]<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
@@ -1633,26 +2963,26 @@ margin-bottom:7.8pt;margin-left:17.95pt;mso-para-margin-top:.5gd;mso-para-margin
 text-indent:-17.95pt;mso-char-indent-count:-1.49'><b><span lang=EN-US
 style='font-size:12.0pt'>Selected Awards <o:p></o:p></span></b></p>
 
-<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt;mso-list:l2 level1 lfo4'><![if !supportLists]><span
+<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt;mso-list:l18 level1 lfo20'><![if !supportLists]><span
 lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:Wingdings;mso-fareast-font-family:
 Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>&Oslash;<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
 lang=EN-US style='mso-bidi-font-size:10.5pt'>Outstanding Paper Award for The
 7th China High Resolution Earth Observation Conference<o:p></o:p></span></p>
 
-<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt;mso-list:l2 level1 lfo4'><![if !supportLists]><span
+<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt;mso-list:l18 level1 lfo20'><![if !supportLists]><span
 lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:Wingdings;mso-fareast-font-family:
 Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>&Oslash;<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
-lang=EN-US style='mso-bidi-font-size:10.5pt'>Certificate Outstanding Reviewer
-for IJPRS<o:p></o:p></span></p>
+lang=EN-US style='mso-bidi-font-size:10.5pt'>Certificate Outstanding Reviewer for
+IJPRS<o:p></o:p></span></p>
 
-<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt;mso-list:l2 level1 lfo4'><![if !supportLists]><span
+<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt;mso-list:l18 level1 lfo20'><![if !supportLists]><span
 lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:Wingdings;mso-fareast-font-family:
 Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>&Oslash;<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
-lang=EN-US style='mso-bidi-font-size:10.5pt'>Certificate Outstanding Reviewer
-for <span class=SpellE>NeuroComputing</span><o:p></o:p></span></p>
+lang=EN-US style='mso-bidi-font-size:10.5pt'>Certificate Outstanding Reviewer for
+<span class=SpellE>NeuroComputing</span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0'><span
 lang=EN-US style='mso-bidi-font-size:10.5pt'><o:p>&nbsp;</o:p></span></p>
@@ -1663,41 +2993,41 @@ margin-bottom:7.8pt;margin-left:17.95pt;mso-para-margin-top:.5gd;mso-para-margin
 text-indent:-17.95pt;mso-char-indent-count:-1.49'><b><span lang=EN-US
 style='font-size:12.0pt'>Professional Activities&nbsp;<o:p></o:p></span></b></p>
 
-<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt;mso-list:l1 level1 lfo6'><![if !supportLists]><span
+<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt;mso-list:l8 level1 lfo21'><![if !supportLists]><span
 lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:Wingdings;mso-fareast-font-family:
 Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>&Oslash;<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
 lang=EN-US style='mso-bidi-font-size:10.5pt'>IEEE Member<o:p></o:p></span></p>
 
-<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt;mso-list:l1 level1 lfo6'><![if !supportLists]><span
+<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt;mso-list:l8 level1 lfo21'><![if !supportLists]><span
 lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:Wingdings;mso-fareast-font-family:
 Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>&Oslash;<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
 lang=EN-US>IEEE Geoscience and Remote Sensing Society Membership</span><span
 lang=EN-US style='mso-bidi-font-size:10.5pt'><o:p></o:p></span></p>
 
-<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt;mso-list:l1 level1 lfo6'><![if !supportLists]><span
+<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt;mso-list:l8 level1 lfo21'><![if !supportLists]><span
 lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:Wingdings;mso-fareast-font-family:
 Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>&Oslash;<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
 lang=EN-US style='mso-bidi-font-size:10.5pt'>Youth Editorial Board of CAAI
 Transactions on Intelligence Technology <o:p></o:p></span></p>
 
-<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt;mso-list:l1 level1 lfo6'><![if !supportLists]><span
+<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt;mso-list:l8 level1 lfo21'><![if !supportLists]><span
 lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:Wingdings;mso-fareast-font-family:
 Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>&Oslash;<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
 lang=EN-US style='mso-bidi-font-size:10.5pt'>China Computer Federation (CCF)
 Member<o:p></o:p></span></p>
 
-<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt;mso-list:l1 level1 lfo6'><![if !supportLists]><span
+<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt;mso-list:l8 level1 lfo21'><![if !supportLists]><span
 lang=EN-US style='mso-bidi-font-size:10.5pt;font-family:Wingdings;mso-fareast-font-family:
 Wingdings;mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>&Oslash;<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
 lang=EN-US style='mso-bidi-font-size:10.5pt'>Chinese Association for Artificial
 Intelligence (CAAI) Member<o:p></o:p></span></p>
 
-<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt;mso-list:l1 level1 lfo6'><![if !supportLists]><span
+<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt;mso-list:l8 level1 lfo21'><![if !supportLists]><span
 lang=EN-US style='font-family:Wingdings;mso-fareast-font-family:Wingdings;
 mso-bidi-font-family:Wingdings;color:black'><span style='mso-list:Ignore'>&Oslash;<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
@@ -1716,62 +3046,62 @@ margin-bottom:7.8pt;margin-left:17.95pt;mso-para-margin-top:.5gd;mso-para-margin
 text-indent:-17.95pt;mso-char-indent-count:-1.49'><b><span lang=EN-US
 style='font-size:12.0pt'>Regular Reviewer&nbsp;<o:p></o:p></span></b></p>
 
-<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt;mso-list:l1 level1 lfo6'><![if !supportLists]><span
+<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt;mso-list:l8 level1 lfo21'><![if !supportLists]><span
 lang=EN-US style='font-family:Wingdings;mso-fareast-font-family:Wingdings;
 mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>&Oslash;<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
 lang=EN-US>IEEE Transactions on Geoscience and Remote Sensing</span></p>
 
-<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt;mso-list:l1 level1 lfo6'><![if !supportLists]><span
+<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt;mso-list:l8 level1 lfo21'><![if !supportLists]><span
 lang=EN-US style='font-family:Wingdings;mso-fareast-font-family:Wingdings;
 mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>&Oslash;<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
 lang=EN-US>IEEE Transactions on Image Processing</span></p>
 
-<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt;mso-list:l1 level1 lfo6'><![if !supportLists]><span
+<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt;mso-list:l8 level1 lfo21'><![if !supportLists]><span
 lang=EN-US style='font-family:Wingdings;mso-fareast-font-family:Wingdings;
 mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>&Oslash;<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
 lang=EN-US>IEEE Transactions on Cybernetics</span></p>
 
-<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt;mso-list:l1 level1 lfo6'><![if !supportLists]><span
+<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt;mso-list:l8 level1 lfo21'><![if !supportLists]><span
 lang=EN-US style='font-family:Wingdings;mso-fareast-font-family:Wingdings;
 mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>&Oslash;<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
 lang=EN-US>IEEE Journal of Selected Topics in Applied Earth Observations and
 Remote Sensing</span></p>
 
-<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt;mso-list:l1 level1 lfo6'><![if !supportLists]><span
+<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt;mso-list:l8 level1 lfo21'><![if !supportLists]><span
 lang=EN-US style='font-family:Wingdings;mso-fareast-font-family:Wingdings;
 mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>&Oslash;<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
 lang=EN-US>IEEE Geoscience and Remote Sensing Letters</span></p>
 
-<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt;mso-list:l1 level1 lfo6'><![if !supportLists]><span
+<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt;mso-list:l8 level1 lfo21'><![if !supportLists]><span
 lang=EN-US style='font-family:Wingdings;mso-fareast-font-family:Wingdings;
 mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>&Oslash;<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
 lang=EN-US>Pattern Recognition</span></p>
 
-<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt;mso-list:l1 level1 lfo6'><![if !supportLists]><span
+<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt;mso-list:l8 level1 lfo21'><![if !supportLists]><span
 lang=EN-US style='font-family:Wingdings;mso-fareast-font-family:Wingdings;
 mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>&Oslash;<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
 class=SpellE><span lang=EN-US>NeuroComputing</span></span></p>
 
-<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt;mso-list:l1 level1 lfo6'><![if !supportLists]><span
+<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt;mso-list:l8 level1 lfo21'><![if !supportLists]><span
 lang=EN-US style='font-family:Wingdings;mso-fareast-font-family:Wingdings;
 mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>&Oslash;<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
 lang=EN-US>Cognitive Computation</span></p>
 
-<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt;mso-list:l1 level1 lfo6'><![if !supportLists]><span
+<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt;mso-list:l8 level1 lfo21'><![if !supportLists]><span
 lang=EN-US style='font-family:Wingdings;mso-fareast-font-family:Wingdings;
 mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>&Oslash;<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
 lang=EN-US>SCIENCE CHINA Information Sciences</span></p>
 
-<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt;mso-list:l1 level1 lfo6'><![if !supportLists]><span
+<p class=MsoNormal style='margin-left:42.0pt;text-indent:-21.0pt;mso-list:l8 level1 lfo21'><![if !supportLists]><span
 lang=EN-US style='font-family:Wingdings;mso-fareast-font-family:Wingdings;
 mso-bidi-font-family:Wingdings'><span style='mso-list:Ignore'>&Oslash;<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
